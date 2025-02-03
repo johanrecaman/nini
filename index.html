@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eafa19479a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="overlay"></div>
+    <div class="container">
+        <div class="content">
+            <h1>Tempo sem amora:</h1>
+            <div class="see-time">
+                <div>
+                    <p id="days">00</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours">00</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="minutes">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p id="seconds">00</p>
+                    <span>Seconds</span>
+                </div>
+            </div>
+            <button id="about" target="pop0">
+                Clica aqui
+                <i class="fa-solid fa-heart" ></i>
+            </button>
+        </div>
+        <div class="rewards-container">
+            <div class="reward-row">
+                <button id="btn-1" class="locked" target="pop1"> 
+                    <i class="fa-solid fa-heart"></i>
+                </button>
+                <button id="btn-2" class="locked" target="pop2"> 
+                    <i class="fa-solid fa-lock"></i>
+                </button>
+                <button id="btn-3" class="locked" target="pop3"> 
+                    <i class="fa-solid fa-lock"></i>
+                </button>
+                <button id="btn-4" class="locked" target="pop4"> 
+                    <i class="fa-solid fa-lock"></i>
+                </button>
+                <button id="btn-5" class="locked" target="pop5"> 
+                    <i class="fa-solid fa-lock"></i>
+                </button>
+            </div>
+            <div class="reward-row">
+                <button id="btn-6" class="locked" target="pop6"> 
+                    <i class="fa-solid fa-lock"></i>
+                </button>
+                <button id="btn-7" class="locked" target="pop7"> 
+                    <i class="fa-solid fa-lock"></i>
+                </button>
+                <button id="btn-8" class="locked" target="pop8"> 
+                    <i class="fa-solid fa-lock"></i>
+                </button>
+                <button id="btn-9" class="locked" target="pop9"> 
+                    <i class="fa-solid fa-lock"></i>
+                </button>
+                <button id="btn-10" class="locked" target="pop10"> 
+                    <i class="fa-solid fa-heart"></i>
+                </button>
+            </div>
+        </div>
+    <img src="./assets/hearts.svg" alt="hearts" class="hearts" id="h2">
+    <img src="./assets/hearts.svg" alt="hearts" class="hearts">
+    </div>
+    <div class="popup-container" id="pop0">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <p>Oi minha lindinha, a cada 2 dias que ficam mais perto da gente se ver, vai desbloquear um cardzinho com uma parte da nossa história do meu ponto de vista, to mexendo bastante ainda, mas espero que ache bonitinho e possa guardar no coração. </p>
+        <img id="pop0-img" src="./assets/jojonini6.jpg" alt="">
+    </div>
+    <div class="popup-container" id="pop1">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="card-content">
+            <div class="image-container">
+                <img id="jn1" src="./assets/jojonini2.jpg" alt="Foto especial" class="card-image">
+            </div>
+            <p class="card-text">
+                Olhando pra trás não sei nem como você conseguiu ficar com essa de "amigos" por tanto tempo. Eu não conseguia ficar longe, realmente te ganhei na insistência. Mas você tem que admitir que mesmo nessa época a gente já fazia um casal bonito. Quando você me mostrou sua playlist pela primeira vez, não consegui tirar você nem essa música da cabeça.
+            </p>
+            <div class="music-container">
+                <img src='./assets/msc1.jpg' alt="Capa da música" class="card-music">
+                <div class="music-info">
+                    <p>Taking Picutres of You</p>
+                    <p>The Kooks</p>
+                </div>
+                <button>
+                    <i class="fa-solid fa-backward"></i>
+                </button>
+                <button class="music-btn" data-music="music-1">
+                    <i class="fa-solid fa-play"></i>
+                </button>
+                <audio id="music-1" src="./assets/music/Taking_Pictures_Of_You.mp3"></audio>
+                <button>
+                    <i class="fa-solid fa-forward"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="popup-container" id="pop2">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="popup-container" id="pop3" >
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="popup-container" id="pop4">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="popup-container" id="pop5">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="popup-container" id="pop6">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="popup-container" id="pop7">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="popup-container" id="pop8">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="popup-container" id="pop9">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="popup-container" id="pop9">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="popup-container" id="pop10">
+        <button class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+</body>
+</html>
