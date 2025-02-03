@@ -284,3 +284,14 @@ a{
 .visible{
     display: flex !important;
 }
+
+#jn2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#jn2 img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
