@@ -178,8 +178,6 @@ a{
 .popup-container{
     display: none;
     z-index: 101;
-    width: 40%;
-    height: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -256,6 +254,17 @@ a{
     color: #FFC8DD;
 }
 
+.msc-body-content{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.msc-btn-container{
+    display: flex;
+    gap: 1rem;
+}
+
 .close{
     position: absolute;
     right: -0.5rem;
@@ -285,10 +294,30 @@ a{
 #jn2{
     display: flex;
     justify-content: space-around;
+    gap: 1rem;
 }
 
 #jn2 img{
-    width: 15rem;
+    width: 50%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+#jn3 div{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#jn3 div img{
+    width: 50%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+#jn3 img{
+    width: 100%;
     height: 15rem;
     object-fit: cover;
 }
