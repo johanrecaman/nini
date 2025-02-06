@@ -321,3 +321,15 @@ a{
     height: 15rem;
     object-fit: cover;
 }
+
+#jn4{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+#jn4 img{
+    width: 50%;
+    height: 15rem;
+    object-fit: cover;
+}
