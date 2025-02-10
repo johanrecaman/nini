@@ -357,3 +357,7 @@ a{
     height: 20rem;
     object-fit: cover;
 }
+
+#tst{
+    border: 1px solid #FFC8DD;
+}
