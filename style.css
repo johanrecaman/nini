@@ -175,6 +175,11 @@ a{
     color: #495057 !important;  
 }   
 
+#btn-10{
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
 .popup-container{
     display: none;
     z-index: 101;
@@ -356,8 +361,4 @@ a{
     width: 100%;
     height: 20rem;
     object-fit: cover;
-}
-
-#tst{
-    border: 1px solid #FFC8DD;
 }
